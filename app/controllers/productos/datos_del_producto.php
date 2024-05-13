@@ -1,5 +1,6 @@
 <?php
 
+
 $sql = "SELECT *,usu.nombre_completo as nombre_completo
         FROM tb_productos as pro INNER JOIN tb_usuarios as usu ON usu.id_usuario = pro.id_usuario
          WHERE id_producto = '$id_producto' ";

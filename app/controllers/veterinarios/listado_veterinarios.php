@@ -10,7 +10,7 @@ try {
         area_especializacion TEXT,
         fecha_de_ingreso DATE,
         fyh_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        fyh_actualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        fyh_actualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP        
     )";
     
     $pdo->exec($sql);
